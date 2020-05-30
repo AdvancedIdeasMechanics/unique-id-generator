@@ -1,0 +1,50 @@
+{
+  "name": "advancedideasmechanics/unique-id-generator",
+  "description": "PHP application to generate alphanumeric ids",
+  "type": "library",
+  "keywords": [
+    "matthewpallotta",
+    "advancedideasmechanics",
+    "unique-id-generator",
+    "php",
+    "library"
+  ],
+  "authors": [
+    {
+      "name":"Matthew Pallotta",
+      "email": "matt@advanced.im",
+      "homepage": "https://advanced.im"
+    }
+  ],
+  "support": {
+    "issues": "https://github.com/advancedideasmechanics/unique-id-generator/issues",
+    "email": "support@advanced.im",
+    "source": "https://github.com/advancedideasmechanics/unique-id-generator"
+  },
+  "homepage": "https://www.advanced.im/uniqueidgenerator",
+  "license": "MIT",
+  "require": {
+    "php": "^7.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Advancedideasmechanics\\Uniqueidgenerator\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Advancedideasmechanics\\Uniqueidgenerator\\": "tests/src"
+    }
+  },
+  "scripts": {
+    "check": [
+      "@cs-check",
+      "@test"
+    ],
+    "cs-check": "phpcs",
+    "cs-fix": "phpcbf"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "9.0"
+  }
+}
