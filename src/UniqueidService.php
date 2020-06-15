@@ -10,7 +10,6 @@ class UniqueidService implements UniqueidServiceInterface
         if (false === $cryptoStrong || false === $opensslRandom) {
             throw new \RuntimeException('IV generation failed');
         }
-
         return bin2hex($opensslRandom);
     }
 

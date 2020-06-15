@@ -1,8 +1,5 @@
 <?php
-
-
 namespace Advancedideasmechanics\Uniqueidgenerator;
-
 
 interface UniqueidServiceInterface
 {
