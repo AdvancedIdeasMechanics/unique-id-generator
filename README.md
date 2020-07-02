@@ -14,6 +14,7 @@ Unique ID generator using openssl
 `use Advancedideasmechanics\Uniqueisgenerator\UniqueidService;`
 
 `$uniqueIdService = new UniqueidService();`
+
 `$uniqueId = $uniqueIdService->getId(16);`
 
 This will return an alphnumeric id. Minimum of 16 characters.
