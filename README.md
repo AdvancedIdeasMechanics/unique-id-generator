@@ -3,7 +3,7 @@ Unique ID generator using openssl
 
 ### Composer ###
 
-`composer install advancedideasmechanics/unique-id-generator`
+`composer require advancedideasmechanics/unique-id-generator`
 
 #### Stand-Alone ####
 
